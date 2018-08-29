@@ -1,0 +1,81 @@
+body {  background-color: #e9d4f7;
+        color: #7a1f5c;
+        font-family: Verdana, "Times New Roman", sans-serif;
+}   
+
+h1    { background-color: #ffefff; 
+        color: #35043d; 
+	    line-height: 100%;
+        border: 3px solid #000000;
+        border-radius: 15px;
+        box-shadow: 5px 5px 5px #828282;
+        padding: 10px;
+	    font-family: Georgia, "Times New Roman", sans-serif;
+        font-size: 40px;
+        font-weight: bold;
+	    text-indent: 1em;
+        background-image: linear-gradient(to bottom, #FFFFFF, #f783a9);
+}
+
+h2 {
+    font-style: italic;
+}
+
+.feature {
+    color: #000066;
+    font-style: italic;
+}
+
+#wrapper{
+    background-color: #FAEBF4;
+    margin-left: auto;
+    margin-right: auto;
+    width: 92%;
+    min-width: 960px;
+}
+
+figure {
+    width: 300px;
+    border: 1px solid #000000;
+    padding: 5px;
+    text-align: center;
+    font-family: Verdana, "Times New Roman", serif;
+    float: right;
+}
+
+nav {
+    width: 20%;
+    padding: 5px;
+    float: left;
+}
+
+nav ol { list-style-type: none; }
+
+nav a { text-decoration: none; }
+
+a:hover { 
+    text-decoration: none;
+    color: #000; 
+}
+
+main {
+    padding: 10px;
+    margin-left: 15%;
+    background-color: ghostwhite;
+}
+
+caption { font-family: Georgia, sans-serif;
+        font-weight: bold;
+        font-size: 1.2em;
+        padding-bottom: 0.5em; }
+
+table { width: 750px;
+        margin: center;
+        font-family: Georgia, sans-serif;
+        font-size: 1em;
+        border: 2px solid #000000;
+        border-spacing: 0;}
+
+tr:first-of-type {background-color: #eaeaea;}
+
+tr:nth-of-type(even) {background-color: lightpink;}
